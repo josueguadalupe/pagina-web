@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    background-color:rgb(253, 248, 248);
+}
+title{color: white;}
+a{color: rgb(12, 11, 11);}
+h1{font-size: 3.5em;
+color: rgb(250, 247, 247);}
+h2{font-size: 2.7;
+color: rgb(17, 17, 17);}
+h3{font-size: 2em;
+color: rgb(255, 251, 251);}
+p{font-size: 1.25em;
+color: rgb(12, 12, 12);
+}
+ul{list-style: none;
+color: rgb(14, 13, 13);}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10x 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(19, 18, 18);
+   background-color: rgb(243, 238, 238);
+}
+
+button:hover{
+    background-color: rgb(133, 56, 206);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: rgb(10, 9, 10);}
+
+header{
+    background-color: rgb(233, 229, 229);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+}
+header a:hover{
+    color: rgb(242, 238, 247);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: rgb(240, 238, 238);
+}
+
+
+
+#Quien-soy.container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#que-jugamos{
+    background-color: rgb(247, 244, 250);
+    color: white;
+    text-align: center;
+}
+
+#que-jugamos.container{
+    padding: 150px 12px;
+    
+}
+
+#que-jugamos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#que-jugamos p{
+    display: none;
+}
+
+#que-jugamos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+
+.carta:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/gtav.jpg");
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/fortnite.jpg");
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/callofduty.jpg");
+}
+.carta p{
+    color: rgb(10, 10, 10);
+}
+
+#caracteristicas.container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: (30,30,30);
+    color: white;
+    height: 80vh;
+}
+
